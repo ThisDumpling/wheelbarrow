@@ -37,8 +37,8 @@ int main(void)
             keybd_event(13,0,0,0);
             keybd_event(13,0,KEYEVENTF_KEYUP,0);
         }
-        printf("当前程序已执行%d次",++Count);
-        Sleep(Time);
+        printf("当前程序已执行%d次\n",++Count);
+        Sleep(Time*1000);
     }
     return 0;
 }
